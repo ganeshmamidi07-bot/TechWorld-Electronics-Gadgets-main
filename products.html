@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products | TechWorld Electronics & Gadgets</title>
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/products.css">
+
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body>
+
+<!-- Header -->
+<header>
+
+<div class="logo">
+<i class="fa-solid fa-microchip"></i>
+<span>TechWorld</span>
+</div>
+
+<nav>
+<ul>
+
+<li><a href="index.html">Home</a></li>
+
+<li><a href="products.html" class="active">Products</a></li>
+
+<li><a href="wishlist.html">Wishlist</a></li>
+
+<li><a href="cart.html">
+<i class="fa-solid fa-cart-shopping"></i>
+Cart
+</a></li>
+
+<li><a href="orders.html">Orders</a></li>
+
+<li><a href="account.html">Account</a></li>
+
+<li><a href="about.html">About</a></li>
+
+<li><a href="contact.html">Contact</a></li>
+
+</ul>
+</nav>
+
+</header>
+
+<!-- Page Title -->
+
+<section class="page-title">
+
+<h1>Electronics & Gadgets</h1>
+
+<p>Browse our latest products</p>
+
+</section>
+
+<!-- Search and Filter -->
+
+<section class="filters">
+
+<input
+type="text"
+id="searchInput"
+placeholder="Search products..."
+onkeyup="searchProducts()">
+
+<select id="categoryFilter"
+onchange="filterProducts()">
+
+<option value="All">All Categories</option>
+
+<option value="Mobile">Mobiles</option>
+
+<option value="Laptop">Laptops</option>
+
+<option value="Headphones">Headphones</option>
+
+<option value="Earbuds">Earbuds</option>
+
+<option value="Smartwatch">Smart Watches</option>
+
+<option value="Accessories">Accessories</option>
+
+</select>
+
+</section>
+
+<!-- Products -->
+
+<section>
+
+<div id="productContainer"
+class="product-grid">
+
+</div>
+
+</section>
+
+<footer>
+
+<p>
+© 2026 TechWorld Electronics & Gadgets
+</p>
+
+</footer>
+
+<script src="js/data.js"></script>
+
+<script src="js/products.js"></script>
+
+</body>
+</html>

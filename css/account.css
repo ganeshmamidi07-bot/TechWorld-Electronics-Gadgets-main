@@ -1,0 +1,49 @@
+.account{
+width:90%;
+max-width:700px;
+margin:40px auto;
+}
+
+.account h1{
+text-align:center;
+margin-bottom:30px;
+color:#0d6efd;
+}
+
+.account-box{
+background:#fff;
+padding:30px;
+border-radius:10px;
+box-shadow:0 4px 10px rgba(0,0,0,.1);
+}
+
+.account label{
+display:block;
+margin-top:15px;
+font-weight:600;
+}
+
+.account input,
+.account textarea{
+width:100%;
+padding:12px;
+margin-top:8px;
+border:1px solid #ccc;
+border-radius:6px;
+}
+
+.account button{
+margin-top:20px;
+width:100%;
+padding:14px;
+background:#0d6efd;
+color:#fff;
+border:none;
+border-radius:6px;
+font-size:16px;
+cursor:pointer;
+}
+
+.account button:hover{
+background:#084298;
+}

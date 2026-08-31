@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Checkout | TechWorld</title>
+
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/checkout.css">
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+
+<body>
+
+<header>
+
+<div class="logo">
+<i class="fa-solid fa-microchip"></i>
+<span>TechWorld</span>
+</div>
+
+<nav>
+<ul>
+<li><a href="index.html">Home</a></li>
+<li><a href="products.html">Products</a></li>
+<li><a href="wishlist.html">Wishlist</a></li>
+<li><a href="cart.html">Cart</a></li>
+<li><a href="orders.html">Orders</a></li>
+<li><a href="account.html">Account</a></li>
+<li><a href="about.html">About</a></li>
+<li><a href="contact.html">Contact</a></li>
+</ul>
+</nav>
+
+</header>
+
+<section class="checkout">
+
+<h1>Checkout</h1>
+
+<div class="checkout-container">
+
+<div class="shipping">
+
+<h2>Shipping Details</h2>
+
+<form id="checkoutForm">
+
+<input type="text" id="name" placeholder="Full Name" required>
+
+<input type="email" id="email" placeholder="Email Address" required>
+
+<input type="tel" id="phone" placeholder="Phone Number" required>
+
+<textarea id="address" placeholder="Full Address" required></textarea>
+
+<select id="payment">
+<option>Cash on Delivery</option>
+<option>UPI</option>
+<option>Credit Card</option>
+<option>Debit Card</option>
+</select>
+
+<button type="submit">
+Place Order
+</button>
+
+</form>
+
+</div>
+
+<div class="summary">
+
+<h2>Order Summary</h2>
+
+<div id="checkoutItems"></div>
+
+<h3>
+Total :
+<span id="checkoutTotal">
+₹0
+</span>
+</h3>
+
+</div>
+
+</div>
+
+</section>
+
+<footer>
+
+<p>© 2026 TechWorld Electronics & Gadgets</p>
+
+</footer>
+
+<script src="js/checkout.js"></script>
+
+</body>
+</html>
