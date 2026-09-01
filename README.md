@@ -3,6 +3,20 @@
 ## Project Overview
 TechWorld Electronics & Gadgets is a responsive e-commerce website developed using HTML, CSS, and JavaScript. The website allows users to browse electronic products, view product details, add items to the cart, manage a wishlist, place orders, and maintain an account.
 
+## 🌐 Live Demo
+
+**Visit the live StyleHub website:**
+
+https://style-hub-fashion-ecommerce.vercel.app/
+
+---
+
+## 🎥 Project Demo Video
+
+**Watch the complete project demonstration on YouTube:**
+
+https://youtu.be/HTXeE-CbO_Y?si=tiZWuQKG46iFJ_H2
+
 ## Features
 - Responsive Design
 - Home Page
@@ -98,4 +112,10 @@ Add your GitHub repository link here.
 https://www.freeinternships.in/blog/
 
 ## Author
-**Sweshna Kokku**
+**MAMIDI GANESH**
+
+B.Tech – Computer Science & Engineering (Data science)
+
+📄 License
+
+This project was created for educational and internship purposes.
